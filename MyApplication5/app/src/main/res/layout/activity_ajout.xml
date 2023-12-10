@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ajout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Ajout">
+
+        <EditText
+            android:id="@+id/editTextStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom de l'étudiant" />
+
+        <EditText
+            android:id="@+id/editTextStudentID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID de l'étudiant"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnAddStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajouter l'étudiant"
+            android:onClick="onAddStudentClick" />
+
+        <Button
+            android:id="@+id/btnAddCSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnAddStudent"
+            android:layout_marginTop="16dp"
+            android:text="Ajouter un fichier CSV" />
+
+        <!-- Add WebView -->
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnAddCSV"
+            android:layout_marginTop="16dp" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

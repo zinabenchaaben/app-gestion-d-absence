@@ -1,0 +1,7 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <paths xmlns:android="http://schemas.android.com/apk/res/android">
+        <files-path name="java.csv" path="\CSVmobile\Java.csv" />
+    </paths>
+
+</PreferenceScreen>

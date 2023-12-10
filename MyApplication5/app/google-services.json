@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "431290423374",
+    "project_id": "gestion-60ef0",
+    "storage_bucket": "gestion-60ef0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431290423374:android:fd3c405b311d5d6c294b1f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1SHXbC4fcFKXtEL3Lctd-zlPO3b6CWUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

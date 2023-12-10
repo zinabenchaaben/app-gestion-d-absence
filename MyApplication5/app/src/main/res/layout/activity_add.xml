@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".Add">
+
+    <EditText
+        android:id="@+id/editTextNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom" />
+
+    <EditText
+        android:id="@+id/editTextPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNom"
+        android:layout_marginTop="8dp"
+        android:hint="Prenom" />
+
+    <EditText
+        android:id="@+id/editTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPrenom"
+        android:layout_marginTop="8dp"
+        android:inputType="number"
+        android:hint="ID" />
+
+    <EditText
+        android:id="@+id/editTextClasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextID"
+        android:layout_marginTop="8dp"
+        android:hint="Classe" />
+
+    <Button
+        android:id="@+id/btnAddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextClasse"
+        android:layout_marginTop="16dp"
+        android:text="Ajoute etudiant" />
+
+    <Button
+        android:id="@+id/btnJava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAddStudent"
+        android:layout_marginTop="8dp"
+        android:text="Java" />
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnJava"
+        android:layout_marginTop="8dp"
+        android:text="Web" />
+
+    <Button
+        android:id="@+id/btnMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnWeb"
+        android:layout_marginTop="8dp"
+        android:text="Mobile" />
+
+    <Button
+        android:id="@+id/btnPaiement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnMobile"
+        android:layout_marginTop="8dp"
+        android:text="Paiement" />
+</RelativeLayout>
+
